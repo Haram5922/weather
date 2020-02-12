@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_web"
+        android:label="오여지"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity android:name=".Weather_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SNS_Main"></activity>
+        <activity android:name=".PostingUpload"></activity>
+        <activity android:name=".PostingUpload2"></activity>
+        <activity android:name=".ProfileEdit"></activity>
+        <activity android:name=".PostingStar"></activity>
+        <activity android:name=".PersonalINFO"></activity>
+        <activity android:name=".LocationINFO"></activity>
+        <activity android:name=".LoginMain"></activity>
+        <activity android:name=".DataPolicy"></activity>
+        <activity android:name=".Info"></activity>
+        <activity android:name=".InfoCheck"></activity>
+        <activity android:name=".MemberShip"></activity>
+        <activity android:name=".MemberShip_Complete"></activity>
+        <activity android:name=".MyActivity"></activity>
+        <activity android:name=".Notice"></activity>
+        <activity android:name=".UseInfo"></activity>
+
+
+
+
+
+    </application>
+
+
+
+</manifest>
