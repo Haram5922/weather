@@ -203,7 +203,7 @@ public class Weather_Main extends AppCompatActivity {
         String ny = null;
 
         try{
-            URL url = new URL("http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastSpaceData?serviceKey=rbBK0cTvcc%2F1TeCQZtMIo6g8T%2F8vXRg7f0n2a0jur88N3emy0193MJcZS9vuc%2F3VqBh5bBlmAefCD0WQnaSqsw%3D%3D&base_date=" +
+            URL url = new URL("http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastSpaceData?serviceKey="       "&base_date=" +
                     formatDate +
                     "&base_time=" +
                     "0200"+
